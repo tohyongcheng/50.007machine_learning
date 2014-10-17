@@ -1,0 +1,8 @@
+a) The best implementation has a 96.71% accuracy.
+
+b) It is achieved at the 260th iteration. Do note that picking of a data point to update w is random, and may take more or less iterations.
+
+c) Place p2.py with the training set and test set data into the same table.
+
+Run the following command on bash:
+  python q2.py train_1_5.csv test_1_5.csv

@@ -1,0 +1,59 @@
+Using One-Class SVM:
+
+optimization finished, #iter = 31
+obj = 78782.004239, rho = 4629.387871
+nSV = 41, nBSV = 35
+Accuracy = 28.125% (9/32) (classification)
+
+---
+
+optimization finished, #iter = 51
+obj = 6451.850476, rho = 434.579442
+nSV = 45, nBSV = 32
+Accuracy = 25% (8/32) (classification)
+
+---
+
+optimization finished, #iter = 100
+obj = 54.127344, rho = 2.942563
+nSV = 62, nBSV = 4
+Accuracy = 6.25% (2/32) (classification)
+
+---
+
+optimization finished, #iter = 17
+obj = 658.448686, rho = 36.034176
+nSV = 38, nBSV = 36
+Accuracy = 28.125% (9/32) (classification)
+
+
+
+Using C-SVC:
+
+optimization finished, #iter = 637
+nu = 0.024407
+obj = -0.903163, rho = 1.532559
+nSV = 39, nBSV = 0
+Total nSV = 39
+Accuracy = 84.375% (27/32) (classification)
+
+optimization finished, #iter = 186
+nu = 0.026157
+obj = -0.967852, rho = 0.276119
+nSV = 62, nBSV = 0
+Total nSV = 62
+Accuracy = 81.25% (26/32) (classification)
+
+optimization finished, #iter = 96
+nu = 0.824736
+obj = -32.541976, rho = -0.133095
+nSV = 74, nBSV = 25
+Total nSV = 74
+Accuracy = 90.625% (29/32) (classification)
+
+optimization finished, #iter = 39
+nu = 0.945946
+obj = -67.705765, rho = -0.697125
+nSV = 71, nBSV = 69
+Total nSV = 71
+Accuracy = 43.75% (14/32) (classification)
