@@ -138,8 +138,8 @@ def main():
   w1 = Warfarin(data,output)
 
   # decide whether to run SGD or BGD
-  # w1.run_batch_gradient_descent()
-  w1.run_stochastic_gradient_descent()
+  w1.run_batch_gradient_descent()
+  # w1.run_stochastic_gradient_descent()
 
 
   w2 = Warfarin(test_data,test_output)
